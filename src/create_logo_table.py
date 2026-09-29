@@ -1,6 +1,9 @@
 import pandas as pd
 
-BASE_URL = "http://localhost:8000/assets"
+BASE_URL = (
+    "https://raw.githubusercontent.com/"
+    "arminBM/big-tech-financial-analytics/main/assets"
+)
 
 companies = {
     "Apple": f"{BASE_URL}/apple.png",
